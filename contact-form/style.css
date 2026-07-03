@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 183, 182);
+}
+table{
+    background-color: rgb(204, 225, 224);
+
+}
+#send{
+    text-align: center;
+    padding: 10%;
+
+}
+#FROM{
+    color: rgb(57, 144, 226);
+    text-align: center;
+}
+form{
+    border: 2px solid black;
+}
+label{
+    font-weight: bold;
+    font-weight: Arial, sans-serief;
+    font-size: 25px;
+}
+input:focus{
+    border: 1px solid;
+    background-color: rgb(176, 248, 253);
+}
+textarea:focus{
+    border: 1px solid;
+    background-color: rgb(176, 248, 253);
+}
+input[type="submit"]{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
